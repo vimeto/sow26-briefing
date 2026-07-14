@@ -1,0 +1,284 @@
+{
+ "vilhelm": [
+  {
+   "id": "rautanaula",
+   "titleFi": "Rautanaula",
+   "emoji": "🔩",
+   "stage": 3,
+   "descFi": "kaikki etapit maaliin"
+  }
+ ],
+ "viivi": [
+  {
+   "id": "perheykkonen",
+   "titleFi": "Perheykkönen",
+   "emoji": "👑",
+   "stage": 2,
+   "descFi": "perheen paras sijoitus etapilla 2"
+  },
+  {
+   "id": "puhdas",
+   "titleFi": "Puhdas suoritus",
+   "emoji": "✨",
+   "stage": 2,
+   "descFi": "nolla virhettä etapilla 2"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 2,
+   "descFi": "nousi 10 sijaa kesken etapin"
+  }
+ ],
+ "sirra": [
+  {
+   "id": "puhdas",
+   "titleFi": "Puhdas suoritus",
+   "emoji": "✨",
+   "stage": 1,
+   "descFi": "nolla virhettä etapilla 1"
+  },
+  {
+   "id": "puhdas",
+   "titleFi": "Puhdas suoritus",
+   "emoji": "✨",
+   "stage": 2,
+   "descFi": "nolla virhettä etapilla 2"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 2,
+   "descFi": "nousi 8 sijaa kesken etapin"
+  },
+  {
+   "id": "rautanaula",
+   "titleFi": "Rautanaula",
+   "emoji": "🔩",
+   "stage": 3,
+   "descFi": "kaikki etapit maaliin"
+  },
+  {
+   "id": "kolmenputki",
+   "titleFi": "Kolmen putki",
+   "emoji": "🔥",
+   "stage": 3,
+   "descFi": "kolme etappia top-30 %:ssa"
+  }
+ ],
+ "mikko": [
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 1,
+   "descFi": "nousi 11 sijaa kesken etapin"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 2,
+   "descFi": "nousi 8 sijaa kesken etapin"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 3,
+   "descFi": "nousi 15 sijaa kesken etapin"
+  },
+  {
+   "id": "rautanaula",
+   "titleFi": "Rautanaula",
+   "emoji": "🔩",
+   "stage": 3,
+   "descFi": "kaikki etapit maaliin"
+  }
+ ],
+ "alma": [
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 1,
+   "descFi": "nousi 14 sijaa kesken etapin"
+  },
+  {
+   "id": "reipas",
+   "titleFi": "Reipas retkeilijä",
+   "emoji": "🐿️",
+   "stage": 1,
+   "descFi": "maaliin asti etapilla 1"
+  },
+  {
+   "id": "puhdas",
+   "titleFi": "Puhdas suoritus",
+   "emoji": "✨",
+   "stage": 2,
+   "descFi": "nolla virhettä etapilla 2"
+  },
+  {
+   "id": "reipas",
+   "titleFi": "Reipas retkeilijä",
+   "emoji": "🐿️",
+   "stage": 2,
+   "descFi": "maaliin asti etapilla 2"
+  },
+  {
+   "id": "reipas",
+   "titleFi": "Reipas retkeilijä",
+   "emoji": "🐿️",
+   "stage": 3,
+   "descFi": "maaliin asti etapilla 3"
+  },
+  {
+   "id": "rautanaula",
+   "titleFi": "Rautanaula",
+   "emoji": "🔩",
+   "stage": 3,
+   "descFi": "kaikki etapit maaliin"
+  },
+  {
+   "id": "kolmenputki",
+   "titleFi": "Kolmen putki",
+   "emoji": "🔥",
+   "stage": 3,
+   "descFi": "kolme etappia top-30 %:ssa"
+  }
+ ],
+ "markus": [
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 1,
+   "descFi": "nousi 12 sijaa kesken etapin"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 2,
+   "descFi": "nousi 16 sijaa kesken etapin"
+  },
+  {
+   "id": "rautanaula",
+   "titleFi": "Rautanaula",
+   "emoji": "🔩",
+   "stage": 3,
+   "descFi": "kaikki etapit maaliin"
+  }
+ ],
+ "eevert": [
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 1,
+   "descFi": "nousi 9 sijaa kesken etapin"
+  },
+  {
+   "id": "rautanaula",
+   "titleFi": "Rautanaula",
+   "emoji": "🔩",
+   "stage": 3,
+   "descFi": "kaikki etapit maaliin"
+  },
+  {
+   "id": "kolmenputki",
+   "titleFi": "Kolmen putki",
+   "emoji": "🔥",
+   "stage": 3,
+   "descFi": "kolme etappia top-30 %:ssa"
+  },
+  {
+   "id": "makikuningas2",
+   "titleFi": "Mäkikuningas ×2",
+   "emoji": "⛰️",
+   "stage": 3,
+   "descFi": "kaksi mäkivoittoa"
+  }
+ ],
+ "venla": [
+  {
+   "id": "perheykkonen",
+   "titleFi": "Perheykkönen",
+   "emoji": "👑",
+   "stage": 1,
+   "descFi": "perheen paras sijoitus etapilla 1"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 1,
+   "descFi": "nousi 9 sijaa kesken etapin"
+  },
+  {
+   "id": "reipas",
+   "titleFi": "Reipas retkeilijä",
+   "emoji": "🐿️",
+   "stage": 1,
+   "descFi": "maaliin asti etapilla 1"
+  },
+  {
+   "id": "puhdas",
+   "titleFi": "Puhdas suoritus",
+   "emoji": "✨",
+   "stage": 2,
+   "descFi": "nolla virhettä etapilla 2"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 2,
+   "descFi": "nousi 14 sijaa kesken etapin"
+  },
+  {
+   "id": "reipas",
+   "titleFi": "Reipas retkeilijä",
+   "emoji": "🐿️",
+   "stage": 2,
+   "descFi": "maaliin asti etapilla 2"
+  },
+  {
+   "id": "perheykkonen",
+   "titleFi": "Perheykkönen",
+   "emoji": "👑",
+   "stage": 3,
+   "descFi": "perheen paras sijoitus etapilla 3"
+  },
+  {
+   "id": "puhdas",
+   "titleFi": "Puhdas suoritus",
+   "emoji": "✨",
+   "stage": 3,
+   "descFi": "nolla virhettä etapilla 3"
+  },
+  {
+   "id": "reipas",
+   "titleFi": "Reipas retkeilijä",
+   "emoji": "🐿️",
+   "stage": 3,
+   "descFi": "maaliin asti etapilla 3"
+  },
+  {
+   "id": "rautanaula",
+   "titleFi": "Rautanaula",
+   "emoji": "🔩",
+   "stage": 3,
+   "descFi": "kaikki etapit maaliin"
+  },
+  {
+   "id": "kolmenputki",
+   "titleFi": "Kolmen putki",
+   "emoji": "🔥",
+   "stage": 3,
+   "descFi": "kolme etappia top-30 %:ssa"
+  }
+ ]
+}

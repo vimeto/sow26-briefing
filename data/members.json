@@ -1,0 +1,97 @@
+[
+ {
+  "id": "vilhelm",
+  "first": "Vilhelm",
+  "last": "Toivonen",
+  "trackmaxx": "Toivonen Vilhelm",
+  "kid": false,
+  "clsByStage": {
+   "1": "HAM",
+   "2": "HAM",
+   "3": "HAM"
+  }
+ },
+ {
+  "id": "viivi",
+  "first": "Viivi",
+  "last": "Alitalo",
+  "trackmaxx": "Alitalo Viivi",
+  "kid": false,
+  "clsByStage": {
+   "2": "HS",
+   "3": "HL"
+  }
+ },
+ {
+  "id": "sirra",
+  "first": "Sirra",
+  "last": "Toivonen",
+  "trackmaxx": "Toivonen Sirra",
+  "kid": false,
+  "clsByStage": {
+   "1": "D45",
+   "2": "D45",
+   "3": "D45"
+  }
+ },
+ {
+  "id": "mikko",
+  "first": "Mikko",
+  "last": "Toivonen",
+  "trackmaxx": "Toivonen Mikko",
+  "kid": false,
+  "clsByStage": {
+   "1": "H60",
+   "2": "H60",
+   "3": "H60"
+  }
+ },
+ {
+  "id": "alma",
+  "first": "Alma",
+  "last": "Räsänen",
+  "trackmaxx": "Räsänen Alma",
+  "kid": true,
+  "clsByStage": {
+   "1": "CM",
+   "2": "CM",
+   "3": "CM"
+  }
+ },
+ {
+  "id": "markus",
+  "first": "Markus",
+  "last": "Räsänen",
+  "trackmaxx": "Räsänen Markus",
+  "kid": false,
+  "clsByStage": {
+   "1": "HE",
+   "2": "HE",
+   "3": "HE"
+  }
+ },
+ {
+  "id": "eevert",
+  "first": "Eevert",
+  "last": "Toivonen",
+  "trackmaxx": "Toivonen Eevert",
+  "kid": false,
+  "clsByStage": {
+   "1": "HE",
+   "2": "HE",
+   "3": "HE"
+  }
+ },
+ {
+  "id": "venla",
+  "first": "Venla",
+  "last": "Toivonen",
+  "trackmaxx": "Toivonen Venla",
+  "kid": true,
+  "clsByStage": {
+   "1": "CM",
+   "2": "CM",
+   "3": "CM"
+  }
+ }
+]
