@@ -107,32 +107,11 @@
    "descFi": "nousi 14 sijaa kesken etapin"
   },
   {
-   "id": "reipas",
-   "titleFi": "Reipas retkeilijä",
-   "emoji": "🐿️",
-   "stage": 1,
-   "descFi": "maaliin asti etapilla 1"
-  },
-  {
    "id": "puhdas",
    "titleFi": "Puhdas suoritus",
    "emoji": "✨",
    "stage": 2,
    "descFi": "nolla virhettä etapilla 2"
-  },
-  {
-   "id": "reipas",
-   "titleFi": "Reipas retkeilijä",
-   "emoji": "🐿️",
-   "stage": 2,
-   "descFi": "maaliin asti etapilla 2"
-  },
-  {
-   "id": "reipas",
-   "titleFi": "Reipas retkeilijä",
-   "emoji": "🐿️",
-   "stage": 3,
-   "descFi": "maaliin asti etapilla 3"
   },
   {
    "id": "rautanaula",
@@ -218,13 +197,6 @@
    "descFi": "nousi 9 sijaa kesken etapin"
   },
   {
-   "id": "reipas",
-   "titleFi": "Reipas retkeilijä",
-   "emoji": "🐿️",
-   "stage": 1,
-   "descFi": "maaliin asti etapilla 1"
-  },
-  {
    "id": "puhdas",
    "titleFi": "Puhdas suoritus",
    "emoji": "✨",
@@ -239,13 +211,6 @@
    "descFi": "nousi 14 sijaa kesken etapin"
   },
   {
-   "id": "reipas",
-   "titleFi": "Reipas retkeilijä",
-   "emoji": "🐿️",
-   "stage": 2,
-   "descFi": "maaliin asti etapilla 2"
-  },
-  {
    "id": "perheykkonen",
    "titleFi": "Perheykkönen",
    "emoji": "👑",
@@ -258,13 +223,6 @@
    "emoji": "✨",
    "stage": 3,
    "descFi": "nolla virhettä etapilla 3"
-  },
-  {
-   "id": "reipas",
-   "titleFi": "Reipas retkeilijä",
-   "emoji": "🐿️",
-   "stage": 3,
-   "descFi": "maaliin asti etapilla 3"
   },
   {
    "id": "rautanaula",

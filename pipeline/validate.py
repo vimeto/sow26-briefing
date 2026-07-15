@@ -61,12 +61,24 @@ def main():
                 check(lg["ratio"] >= 1.0 - 1e-9, f"s{stage} {m['memberId']} ratio<1")
                 check(lg["legRank"] >= 1, f"s{stage} {m['memberId']} legRank<1")
         # awards evidence points at a real leg
+            # hillProfile: null (no terrain) or buckets with pct in [0,100], n>=1
+            hp = m.get("hillProfile")
+            if hp is not None:
+                for bk in ("up", "down", "flat"):
+                    b = hp.get(bk)
+                    if b is not None:
+                        check(0 <= b["pct"] <= 100, f"s{stage} {m['memberId']} {bk}.pct range")
+                        check(b["n"] >= 1, f"s{stage} {m['memberId']} {bk}.n<1")
         mrows = {m["memberId"]: m for m in sj["members"]}
         for a in sj["awards"]:
             mid = a["evidence"]["memberId"]
             li = a["evidence"]["legIdx"]
             check(mid in mrows and 0 <= li < len(mrows[mid]["legs"]),
                   f"s{stage} award {a['id']} bad evidence leg")
+            if a["id"] == "alamakikuningas":
+                hp = mrows[mid].get("hillProfile")
+                check(hp and hp.get("down") and hp["down"]["n"] >= 2,
+                      f"s{stage} alamakikuningas winner lacks >=2 downhill legs")
         # run-in histogram integrity
         ri = sj["runInReport"]
         check(sum(ri["counts"]) == ri["poolSize"],

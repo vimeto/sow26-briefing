@@ -11,8 +11,9 @@ switched class HS→HL). Any member can be missing from a stage; the UI must not
 assume all 8 are present every stage.
 
 Livelox-dependent fields are **null until the Livelox extraction lands** for that
-stage×class. When null: `legs[].distM/upM/downM`, `categories[].courseLengthM/climbM`,
-the `makikuningas` award and `makikuningas2` badge are absent, and `crops` is `[]`.
+stage×class. When null: `legs[].distM/upM/downM`, `members[].hillProfile`,
+`categories[].courseLengthM/climbM`, the `makikuningas`/`alamakikuningas` awards
+and `makikuningas2` badge are absent, and the affected `crops` are skipped.
 
 ---
 
@@ -41,6 +42,16 @@ Top level: `stage, members[], awards[], duels[], runInReport, categories, overal
 | `runIn` | `{sec, fieldPct}` — finish-chute (last leg) time; `fieldPct` 0–100 = % of the **whole stage field** (all classes pooled, shared chute) beaten on the run-in |
 | `legs[]` | per-leg detail, ordered start→finish, length = control count + 1 |
 | `rankAtByControl[]` | running position after each control (same values as `legs[].rankAt`) |
+| `hillProfile` | `{up, down, flat}` uphill/downhill/flat leg performance, or **null** without Livelox climb (see below) |
+
+### hillProfile — uphill / flat / downhill performance
+`{up, down, flat}`; each class is `{pct, n}` or **null** when `n==0`, and the whole
+object is **null** when the runner has no usable climb legs. A leg counts only when
+`distM ≥ 100` and its climb data is non-null; it is classed by gradient
+`(upM − downM)/distM`: **up** ≥ +0.06, **down** ≤ −0.06, else **flat**. `pct` is the
+member's mean field-percentile on that class's legs, where a leg's percentile is
+`100·(1 − (legRank − 1)/(finishers − 1))` (100 = fastest split in the category);
+`n` = number of legs in the class.
 
 ### legs[] entry
 | field | meaning | null? |
@@ -62,15 +73,17 @@ Top level: `stage, members[], awards[], duels[], runInReport, categories, overal
 of the residuals. `lossSec = max(0, residual)` is reported for **every** leg, but
 `mistakeLossSec`/`mistakeCount` count only flagged legs.
 
-### awards[] — one entry per award type, may be fewer than 7
+### awards[] — one entry per award type, up to 8 (fewer if unearned)
 `{id, titleFi, emoji, memberId, valueFi, evidence:{memberId, legIdx}}`. `valueFi`
 is a short Finnish evidence string for display. `evidence.legIdx` indexes into
 that member's `legs[]`. Ids: `kultakontrolli` (best control leg vs field, run-in
 excluded), `sudenkuoppa` (biggest single loss), `tasatahti` (steadiest, lowest
 ratio σ), `raketti` (most places gained in 2nd half), `vihreasormi` (most legs in
 category top-10%), `sisu` (biggest in-race comeback), `makikuningas` (best pace on
-a steep-up leg — **only when Livelox climb exists**). An award is omitted if no
-valid evidence leg exists (e.g. nobody lost time → no `sudenkuoppa`).
+a steep-up leg), `alamakikuningas` (best mean field-percentile on downhill legs;
+winner needs ≥2 qualifying downhill legs, `evidence.legIdx` = their best downhill
+leg). The last two are **only present when Livelox climb exists**. An award is
+omitted if no valid evidence leg exists (e.g. nobody lost time → no `sudenkuoppa`).
 
 ### duels[] — `eevert-markus` (HE) and `venla-alma` (CM)
 `{id, class, memberA, memberB, cumDiff[], legsWonA, legsWonB, totalDiffSec,
@@ -96,10 +109,16 @@ then `rankAfter/of/cumBehindSec` are **null** (but `cumTimeSec` = sum of stages
 run, or null if none). When rankable, the pool is runners who finished **every**
 stage 1..N in that same category.
 
-### crops[] — `{id, file, memberId, legLabel, kind, ctrlFrom, ctrlTo}`
+### crops[] — `{id, file, memberId, legLabel, kind, ctrlFrom, ctrlTo, pxFrom, pxTo, widthPx, heightPx}`
 `kind ∈ {hero, villain, duelHE, duelCM}`; `file` is repo-relative (e.g.
-`crops/s2_hero_viivi_L3.webp`), webp ≤150 KB, base map only (no drawn overlay —
-the UI annotates). **`[]` until Livelox maps for the relevant class exist.**
+`crops/s2_hero_viivi_L3.webp`), webp ≤150 KB. The image **already has the course
+overprint drawn** — two ISOM-purple control circles (start triangle when
+`ctrlFrom` is the start), the straight leg line between them, and purple code
+labels — windowed to the leg (min ~350 m window so short legs don't over-zoom).
+The UI does **not** need to annotate; if it wants to, `pxFrom`/`pxTo` are the two
+controls' `[x, y]` pixel positions **within the saved image** and `widthPx`/
+`heightPx` its dimensions. **`[]` until Livelox maps for the relevant class
+exist** (stage 1 CM has no map, so stage 1 emits only villain + duelHE).
 
 ### metsaradio — `{paragraphsFi: []}`; written by the lead, left empty here.
 

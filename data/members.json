@@ -51,7 +51,7 @@
   "first": "Alma",
   "last": "Räsänen",
   "trackmaxx": "Räsänen Alma",
-  "kid": true,
+  "kid": false,
   "clsByStage": {
    "1": "CM",
    "2": "CM",
@@ -87,7 +87,7 @@
   "first": "Venla",
   "last": "Toivonen",
   "trackmaxx": "Toivonen Venla",
-  "kid": true,
+  "kid": false,
   "clsByStage": {
    "1": "CM",
    "2": "CM",

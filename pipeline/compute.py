@@ -27,7 +27,13 @@ AWARD_META = {
     "vihreasormi": ("Vihreä sormi", "🌿"),
     "sisu": ("Sisu", "💪"),
     "makikuningas": ("Mäkikuningas", "⛰️"),
+    "alamakikuningas": ("Alamäkikuningas/-kuningatar", "⛷️"),
 }
+
+# Gradient (up−down)/dist threshold separating uphill/flat/downhill legs, and the
+# minimum leg length (m) for a leg to carry meaningful terrain signal.
+HILL_GRAD_THR = 0.06
+HILL_MIN_DIST_M = 100
 
 
 def fmt_mmss(s):
@@ -35,6 +41,40 @@ def fmt_mmss(s):
     m, sec = divmod(s, 60)
     h, m = divmod(m, 60)
     return f"{h}:{m:02d}:{sec:02d}" if h else f"{m}:{sec:02d}"
+
+
+def leg_hill_class(lg):
+    """UP / DOWN / FLAT for a leg, or None when it lacks usable terrain data
+    (missing climb, or too short to read a gradient from)."""
+    dm, um, dn = lg.get("distM"), lg.get("upM"), lg.get("downM")
+    if dm is None or um is None or dn is None or dm < HILL_MIN_DIST_M:
+        return None
+    grad = (um - dn) / dm
+    if grad >= HILL_GRAD_THR:
+        return "up"
+    if grad <= -HILL_GRAD_THR:
+        return "down"
+    return "flat"
+
+
+def hill_profile(legs, n_cat):
+    """Per-class mean field-percentile on the runner's uphill/flat/downhill legs.
+
+    Each qualifying leg contributes 100*(1 − (legRank−1)/(n_cat−1)) — the % of the
+    category beaten on that split (100 = fastest). Classes with no qualifying leg
+    are null; the whole profile is None when the runner has no usable climb legs.
+    """
+    buckets = {"up": [], "down": [], "flat": []}
+    for lg in legs:
+        cls = leg_hill_class(lg)
+        if cls is None:
+            continue
+        pct = 100.0 if n_cat <= 1 else 100.0 * (1 - (lg["legRank"] - 1) / (n_cat - 1))
+        buckets[cls].append(pct)
+    if not any(buckets.values()):
+        return None
+    return {k: ({"pct": round(sum(v) / len(v), 1), "n": len(v)} if v else None)
+            for k, v in buckets.items()}
 
 
 # --------------------------------------------------------------------------
@@ -126,6 +166,7 @@ def build_stage(stage, parsed, members):
             "runIn": {"sec": last_leg, "fieldPct": field_pct(last_leg)},
             "legs": legs,
             "rankAtByControl": ra,
+            "hillProfile": hill_profile(legs, n_cat),
         }
         member_rows.append(row)
         member_ctx[mb["id"]] = {
@@ -234,14 +275,39 @@ def build_awards(ctx):
             mid, i, lg = min(pool, key=lambda x: x[2]["ratio"])
             emit("makikuningas", mid, i,
                  f"{lg['ctrl']}: {lg['upM']} m nousua, {lg['ratio']*100:.0f} % vauhti")
+
+    # alamakikuningas: best mean field-percentile on downhill legs (>= 2 legs).
+    def best_down_leg_idx(c):
+        best = None
+        for i, lg in enumerate(c["legs"]):
+            if leg_hill_class(lg) == "down" and (
+                    best is None or lg["legRank"] < c["legs"][best]["legRank"]):
+                best = i
+        return best
+
+    down_pool = []
+    for mid, c in present.items():
+        hp = c["row"].get("hillProfile")
+        if hp and hp.get("down") and hp["down"]["n"] >= 2:
+            down_pool.append((mid, c, hp["down"]))
+    if down_pool:
+        mid, c, dn = max(down_pool, key=lambda x: x[2]["pct"])
+        leg_i = best_down_leg_idx(c)
+        if leg_i is not None:
+            top = max(1, round(100 - dn["pct"]))
+            emit("alamakikuningas", mid, leg_i,
+                 f"alamäissä kentän top {top} % ({dn['n']} osuutta)")
     return awards
 
 
 def build_duels(parsed, members):
-    pairs = [("eevert", "markus", "HE"), ("venla", "alma", "CM")]
+    # Family relation drives the duel's display title: Eevert & Markus are
+    # brothers-in-law (lanko), Venla & Alma sisters-in-law (käly).
+    pairs = [("eevert", "markus", "HE", "Lankoduelli"),
+             ("venla", "alma", "CM", "Kälyduelli")]
     mby = {m["id"]: m for m in members}
     duels = []
-    for aid, bid, hint in pairs:
+    for aid, bid, hint, title in pairs:
         pa = find_rec(parsed, mby[aid])
         pb = find_rec(parsed, mby[bid])
         if not pa or not pb:
@@ -258,7 +324,8 @@ def build_duels(parsed, members):
                                        for i in range(1, k)]
         decisive = int(max(range(k), key=lambda i: swings[i]))
         duels.append({
-            "id": f"{aid}-{bid}", "class": ca, "memberA": aid, "memberB": bid,
+            "id": f"{aid}-{bid}", "titleFi": title,
+            "class": ca, "memberA": aid, "memberB": bid,
             "cumDiff": cum_diff, "legsWonA": legs_a, "legsWonB": legs_b,
             "totalDiffSec": cum_diff[-1], "decisiveLegIdx": decisive,
         })
@@ -386,8 +453,10 @@ def add_crops(stage, stage_json, ctx):
             return
         crops.append({
             "id": f"{kind}", "file": f"crops/{fn}", "memberId": mid,
-            "legLabel": f"{res[0]}→{res[1]}", "kind": kind,
-            "ctrlFrom": res[0], "ctrlTo": res[1],
+            "legLabel": f"{res['fromCode']}→{res['toCode']}", "kind": kind,
+            "ctrlFrom": res["fromCode"], "ctrlTo": res["toCode"],
+            "pxFrom": res["pxFrom"], "pxTo": res["pxTo"],
+            "widthPx": res["widthPx"], "heightPx": res["heightPx"],
         })
 
     by_id = {a["id"]: a for a in stage_json["awards"]}
