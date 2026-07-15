@@ -86,8 +86,10 @@ leg). The last two are **only present when Livelox climb exists**. An award is
 omitted if no valid evidence leg exists (e.g. nobody lost time → no `sudenkuoppa`).
 
 ### duels[] — `eevert-markus` (HE) and `venla-alma` (CM)
-`{id, class, memberA, memberB, cumDiff[], legsWonA, legsWonB, totalDiffSec,
-decisiveLegIdx}`. `cumDiff[i] = A.cumSec[i] − B.cumSec[i]` (negative = A ahead),
+`{id, titleFi, class, memberA, memberB, cumDiff[], legsWonA, legsWonB,
+totalDiffSec, decisiveLegIdx}`. `titleFi` is the duel's display name
+(`Lankoduelli` for eevert-markus, `Kälyduelli` for venla-alma — brothers-/
+sisters-in-law). `cumDiff[i] = A.cumSec[i] − B.cumSec[i]` (negative = A ahead),
 one per control. `decisiveLegIdx` = leg with the biggest single-leg swing in the
 gap. Omitted if either runner is missing that stage. Length = min of the two
 runners' control counts.
