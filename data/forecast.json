@@ -2,15 +2,15 @@
  "asOfStage": 3,
  "members": {
   "vilhelm": {
-   "p05": 18,
-   "p25": 23,
-   "p50": 26,
+   "p05": 22,
+   "p25": 25,
+   "p50": 28,
    "p75": 30,
    "p95": 34,
    "pTop10": 0.0,
-   "pBetterThanCurrent": 0.9,
+   "pBetterThanCurrent": 0.918,
    "trend": "nouseva",
-   "catSize": 63
+   "catSize": 64
   },
   "viivi": {
    "p05": 4,
@@ -18,7 +18,7 @@
    "p50": 6,
    "p75": 7,
    "p95": 9,
-   "pTop10": 0.12,
+   "pTop10": 0.134,
    "pBetterThanCurrent": 0.998,
    "trend": "laskeva",
    "catSize": 34
@@ -30,42 +30,42 @@
    "p75": 10,
    "p95": 11,
    "pTop10": 0.0,
-   "pBetterThanCurrent": 0.039,
-   "trend": "laskeva",
-   "catSize": 60
+   "pBetterThanCurrent": 0.009,
+   "trend": "tasainen",
+   "catSize": 58
   },
   "mikko": {
-   "p05": 22,
-   "p25": 24,
-   "p50": 26,
-   "p75": 27,
-   "p95": 29,
+   "p05": 24,
+   "p25": 26,
+   "p50": 27,
+   "p75": 29,
+   "p95": 30,
    "pTop10": 0.0,
-   "pBetterThanCurrent": 0.116,
-   "trend": "tasainen",
-   "catSize": 82
+   "pBetterThanCurrent": 0.004,
+   "trend": "laskeva",
+   "catSize": 80
   },
   "alma": {
-   "p05": 6,
-   "p25": 7,
-   "p50": 8,
-   "p75": 9,
-   "p95": 11,
-   "pTop10": 0.993,
+   "p05": 8,
+   "p25": 9,
+   "p50": 10,
+   "p75": 11,
+   "p95": 13,
+   "pTop10": 0.948,
    "pBetterThanCurrent": 0.0,
    "trend": "laskeva",
-   "catSize": 120
+   "catSize": 116
   },
   "markus": {
-   "p05": 26,
-   "p25": 30,
-   "p50": 32,
-   "p75": 35,
-   "p95": 39,
+   "p05": 18,
+   "p25": 21,
+   "p50": 23,
+   "p75": 25,
+   "p95": 28,
    "pTop10": 0.0,
-   "pBetterThanCurrent": 0.083,
-   "trend": "laskeva",
-   "catSize": 69
+   "pBetterThanCurrent": 0.528,
+   "trend": "tasainen",
+   "catSize": 59
   },
   "eevert": {
    "p05": 8,
@@ -73,21 +73,21 @@
    "p50": 9,
    "p75": 10,
    "p95": 11,
-   "pTop10": 0.03,
-   "pBetterThanCurrent": 0.379,
+   "pTop10": 0.029,
+   "pBetterThanCurrent": 0.384,
    "trend": "nouseva",
    "catSize": 69
   },
   "venla": {
    "p05": 2,
    "p25": 3,
-   "p50": 4,
-   "p75": 5,
-   "p95": 6,
+   "p50": 3,
+   "p75": 4,
+   "p95": 5,
    "pTop10": 1.0,
    "pBetterThanCurrent": 0.0,
    "trend": "tasainen",
-   "catSize": 120
+   "catSize": 116
   }
  }
 }

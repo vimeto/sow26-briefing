@@ -16,6 +16,7 @@ STAGE_RACE_UUID = {
     1: "7d432d49-894e-4dba-a9a3-26c7f716e808",
     2: "84dcd3ee-8954-4b3d-bc7c-897d02ba6fee",
     3: "b221510d-1c88-48da-9ef0-a29ec6f1051d",
+    4: "3f2e1981-b2ee-463a-8b4b-ebe39b65c0f6",
 }
 
 TRACKMAXX_LIST = "https://trackmaxx.ch/list/list.ashx"

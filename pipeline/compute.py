@@ -16,7 +16,7 @@ import lib_trackmaxx as T
 import lib_compute as C
 import lib_livelox as LL
 
-STAGES = [1, 2, 3]
+STAGES = [1, 2, 3, 4]
 FAMILY_CATS = ["HAM", "HS", "HL", "D45", "H60", "CM", "HE"]
 
 AWARD_META = {
@@ -497,8 +497,9 @@ def build_forecast(member_pcts, member_current_pct, member_catsize, n_sims=20000
         sd = max(float(np.std(pcts)) if len(pcts) > 1 else 5.0, 5.0)
         n = max(2, member_catsize.get(mid, 50))
         cur_pct = member_current_pct.get(mid)
-        future = np.clip(rng.normal(mean, sd, size=(n_sims, 3)), 0, 100)
-        avg6 = (sum(pcts) + future.sum(axis=1)) / (len(pcts) + 3)
+        n_rem = 6 - len(STAGES)
+        future = np.clip(rng.normal(mean, sd, size=(n_sims, n_rem)), 0, 100)
+        avg6 = (sum(pcts) + future.sum(axis=1)) / (len(pcts) + n_rem)
         finals = np.round((100 - avg6) / 100 * (n - 1)).astype(int) + 1
         top10_n = max(1, math.ceil(0.10 * n))
         slope = C.linfit_slope(pcts)
