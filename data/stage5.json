@@ -21,7 +21,7 @@
    },
    "legs": [
     {
-     "ctrl": "1",
+     "ctrl": "39",
      "legSec": 65,
      "cumSec": 65,
      "legRank": 1,
@@ -30,12 +30,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 182,
+     "upM": 5,
+     "downM": 5
     },
     {
-     "ctrl": "2",
+     "ctrl": "45",
      "legSec": 69,
      "cumSec": 134,
      "legRank": 17,
@@ -44,12 +44,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 5,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 101,
+     "upM": 20,
+     "downM": 0
     },
     {
-     "ctrl": "3",
+     "ctrl": "47",
      "legSec": 34,
      "cumSec": 168,
      "legRank": 10,
@@ -58,12 +58,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 5,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 49,
+     "upM": 0,
+     "downM": 10
     },
     {
-     "ctrl": "4",
+     "ctrl": "72",
      "legSec": 247,
      "cumSec": 415,
      "legRank": 45,
@@ -72,12 +72,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 15,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 292,
+     "upM": 40,
+     "downM": 20
     },
     {
-     "ctrl": "5",
+     "ctrl": "205",
      "legSec": 98,
      "cumSec": 513,
      "legRank": 38,
@@ -86,12 +86,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 18,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 152,
+     "upM": 5,
+     "downM": 0
     },
     {
-     "ctrl": "6",
+     "ctrl": "85",
      "legSec": 52,
      "cumSec": 565,
      "legRank": 44,
@@ -100,12 +100,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 19,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 113,
+     "upM": 0,
+     "downM": 15
     },
     {
-     "ctrl": "7",
+     "ctrl": "89",
      "legSec": 34,
      "cumSec": 599,
      "legRank": 45,
@@ -114,12 +114,12 @@
      "lossSec": 4,
      "mistake": false,
      "rankAt": 20,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 57,
+     "upM": 0,
+     "downM": 0
     },
     {
-     "ctrl": "8",
+     "ctrl": "92",
      "legSec": 93,
      "cumSec": 692,
      "legRank": 53,
@@ -128,12 +128,12 @@
      "lossSec": 4,
      "mistake": false,
      "rankAt": 24,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 10,
+     "downM": 0
     },
     {
-     "ctrl": "9",
+     "ctrl": "100",
      "legSec": 209,
      "cumSec": 901,
      "legRank": 36,
@@ -142,12 +142,12 @@
      "lossSec": 3,
      "mistake": false,
      "rankAt": 25,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 227,
+     "upM": 40,
+     "downM": 5
     },
     {
-     "ctrl": "10",
+     "ctrl": "106",
      "legSec": 150,
      "cumSec": 1051,
      "legRank": 46,
@@ -156,12 +156,12 @@
      "lossSec": 3,
      "mistake": false,
      "rankAt": 30,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 103,
+     "upM": 30,
+     "downM": 0
     },
     {
-     "ctrl": "11",
+     "ctrl": "108",
      "legSec": 41,
      "cumSec": 1092,
      "legRank": 60,
@@ -170,12 +170,12 @@
      "lossSec": 11,
      "mistake": false,
      "rankAt": 30,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 44,
+     "upM": 0,
+     "downM": 0
     },
     {
-     "ctrl": "12",
+     "ctrl": "112",
      "legSec": 124,
      "cumSec": 1216,
      "legRank": 27,
@@ -184,12 +184,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 26,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 215,
+     "upM": 10,
+     "downM": 35
     },
     {
-     "ctrl": "13",
+     "ctrl": "119",
      "legSec": 153,
      "cumSec": 1369,
      "legRank": 39,
@@ -198,12 +198,12 @@
      "lossSec": 9,
      "mistake": false,
      "rankAt": 27,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 241,
+     "upM": 0,
+     "downM": 15
     },
     {
-     "ctrl": "14",
+     "ctrl": "75",
      "legSec": 86,
      "cumSec": 1455,
      "legRank": 60,
@@ -212,12 +212,12 @@
      "lossSec": 23,
      "mistake": true,
      "rankAt": 30,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 142,
+     "upM": 0,
+     "downM": 5
     },
     {
-     "ctrl": "15",
+     "ctrl": "200",
      "legSec": 31,
      "cumSec": 1486,
      "legRank": 48,
@@ -226,12 +226,12 @@
      "lossSec": 3,
      "mistake": false,
      "rankAt": 30,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 109,
+     "upM": 0,
+     "downM": 20
     },
     {
-     "ctrl": "Maali",
+     "ctrl": "F1",
      "legSec": 14,
      "cumSec": 1500,
      "legRank": 4,
@@ -240,9 +240,9 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 30,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 0,
+     "downM": 15
     }
    ],
    "rankAtByControl": [
@@ -263,7 +263,20 @@
     30,
     30
    ],
-   "hillProfile": null
+   "hillProfile": {
+    "up": {
+     "pct": 37.0,
+     "n": 5
+    },
+    "down": {
+     "pct": 48.5,
+     "n": 5
+    },
+    "flat": {
+     "pct": 47.5,
+     "n": 3
+    }
+   }
   },
   {
    "memberId": "sirra",
@@ -285,7 +298,7 @@
    },
    "legs": [
     {
-     "ctrl": "1",
+     "ctrl": "40",
      "legSec": 124,
      "cumSec": 124,
      "legRank": 9,
@@ -294,12 +307,12 @@
      "lossSec": 8,
      "mistake": false,
      "rankAt": 9,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 172,
+     "upM": 5,
+     "downM": 0
     },
     {
-     "ctrl": "2",
+     "ctrl": "45",
      "legSec": 59,
      "cumSec": 183,
      "legRank": 5,
@@ -308,12 +321,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 6,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 98,
+     "upM": 10,
+     "downM": 0
     },
     {
-     "ctrl": "3",
+     "ctrl": "49",
      "legSec": 167,
      "cumSec": 350,
      "legRank": 52,
@@ -322,12 +335,12 @@
      "lossSec": 122,
      "mistake": true,
      "rankAt": 35,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 66,
+     "upM": 0,
+     "downM": 10
     },
     {
-     "ctrl": "4",
+     "ctrl": "72",
      "legSec": 248,
      "cumSec": 598,
      "legRank": 10,
@@ -336,12 +349,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 20,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 304,
+     "upM": 40,
+     "downM": 20
     },
     {
-     "ctrl": "5",
+     "ctrl": "205",
      "legSec": 80,
      "cumSec": 678,
      "legRank": 5,
@@ -350,12 +363,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 17,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 152,
+     "upM": 5,
+     "downM": 0
     },
     {
-     "ctrl": "6",
+     "ctrl": "87",
      "legSec": 57,
      "cumSec": 735,
      "legRank": 5,
@@ -364,12 +377,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 13,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 0,
+     "downM": 5
     },
     {
-     "ctrl": "7",
+     "ctrl": "89",
      "legSec": 84,
      "cumSec": 819,
      "legRank": 38,
@@ -378,12 +391,12 @@
      "lossSec": 47,
      "mistake": true,
      "rankAt": 16,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 61,
+     "upM": 0,
+     "downM": 10
     },
     {
-     "ctrl": "8",
+     "ctrl": "92",
      "legSec": 71,
      "cumSec": 890,
      "legRank": 2,
@@ -392,12 +405,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 15,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 10,
+     "downM": 0
     },
     {
-     "ctrl": "9",
+     "ctrl": "101",
      "legSec": 178,
      "cumSec": 1068,
      "legRank": 9,
@@ -406,12 +419,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 11,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 202,
+     "upM": 35,
+     "downM": 0
     },
     {
-     "ctrl": "10",
+     "ctrl": "106",
      "legSec": 118,
      "cumSec": 1186,
      "legRank": 5,
@@ -420,12 +433,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 10,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 113,
+     "upM": 25,
+     "downM": 0
     },
     {
-     "ctrl": "11",
+     "ctrl": "108",
      "legSec": 34,
      "cumSec": 1220,
      "legRank": 34,
@@ -434,12 +447,12 @@
      "lossSec": 6,
      "mistake": false,
      "rankAt": 10,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 44,
+     "upM": 0,
+     "downM": 0
     },
     {
-     "ctrl": "12",
+     "ctrl": "113",
      "legSec": 147,
      "cumSec": 1367,
      "legRank": 12,
@@ -448,12 +461,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 11,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 235,
+     "upM": 5,
+     "downM": 35
     },
     {
-     "ctrl": "13",
+     "ctrl": "119",
      "legSec": 145,
      "cumSec": 1512,
      "legRank": 28,
@@ -462,12 +475,12 @@
      "lossSec": 29,
      "mistake": true,
      "rankAt": 13,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 218,
+     "upM": 0,
+     "downM": 15
     },
     {
-     "ctrl": "14",
+     "ctrl": "75",
      "legSec": 57,
      "cumSec": 1569,
      "legRank": 12,
@@ -476,12 +489,12 @@
      "lossSec": 4,
      "mistake": false,
      "rankAt": 13,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 142,
+     "upM": 0,
+     "downM": 5
     },
     {
-     "ctrl": "15",
+     "ctrl": "200",
      "legSec": 34,
      "cumSec": 1603,
      "legRank": 20,
@@ -490,12 +503,12 @@
      "lossSec": 1,
      "mistake": false,
      "rankAt": 13,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 109,
+     "upM": 0,
+     "downM": 20
     },
     {
-     "ctrl": "Maali",
+     "ctrl": "F1",
      "legSec": 25,
      "cumSec": 1628,
      "legRank": 43,
@@ -504,9 +517,9 @@
      "lossSec": 4,
      "mistake": false,
      "rankAt": 13,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 0,
+     "downM": 15
     }
    ],
    "rankAtByControl": [
@@ -527,7 +540,20 @@
     13,
     13
    ],
-   "hillProfile": null
+   "hillProfile": {
+    "up": {
+     "pct": 90.0,
+     "n": 4
+    },
+    "down": {
+     "pct": 55.0,
+     "n": 4
+    },
+    "flat": {
+     "pct": 87.7,
+     "n": 4
+    }
+   }
   },
   {
    "memberId": "mikko",
@@ -549,7 +575,7 @@
    },
    "legs": [
     {
-     "ctrl": "1",
+     "ctrl": "41",
      "legSec": 116,
      "cumSec": 116,
      "legRank": 14,
@@ -558,12 +584,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 14,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 197,
+     "upM": 5,
+     "downM": 5
     },
     {
-     "ctrl": "2",
+     "ctrl": "45",
      "legSec": 59,
      "cumSec": 175,
      "legRank": 16,
@@ -572,12 +598,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 15,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 75,
+     "upM": 10,
+     "downM": 0
     },
     {
-     "ctrl": "3",
+     "ctrl": "49",
      "legSec": 166,
      "cumSec": 341,
      "legRank": 78,
@@ -586,12 +612,12 @@
      "lossSec": 121,
      "mistake": true,
      "rankAt": 65,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 66,
+     "upM": 0,
+     "downM": 10
     },
     {
-     "ctrl": "4",
+     "ctrl": "72",
      "legSec": 263,
      "cumSec": 604,
      "legRank": 18,
@@ -600,12 +626,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 52,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 304,
+     "upM": 40,
+     "downM": 20
     },
     {
-     "ctrl": "5",
+     "ctrl": "205",
      "legSec": 84,
      "cumSec": 688,
      "legRank": 19,
@@ -614,12 +640,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 42,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 152,
+     "upM": 5,
+     "downM": 0
     },
     {
-     "ctrl": "6",
+     "ctrl": "88",
      "legSec": 69,
      "cumSec": 757,
      "legRank": 12,
@@ -628,12 +654,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 36,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 132,
+     "upM": 0,
+     "downM": 10
     },
     {
-     "ctrl": "7",
+     "ctrl": "89",
      "legSec": 66,
      "cumSec": 823,
      "legRank": 41,
@@ -642,12 +668,12 @@
      "lossSec": 39,
      "mistake": true,
      "rankAt": 33,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 37,
+     "upM": 0,
+     "downM": 5
     },
     {
-     "ctrl": "8",
+     "ctrl": "92",
      "legSec": 77,
      "cumSec": 900,
      "legRank": 17,
@@ -656,12 +682,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 30,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 10,
+     "downM": 0
     },
     {
-     "ctrl": "9",
+     "ctrl": "102",
      "legSec": 328,
      "cumSec": 1228,
      "legRank": 73,
@@ -670,12 +696,12 @@
      "lossSec": 170,
      "mistake": true,
      "rankAt": 56,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 211,
+     "upM": 35,
+     "downM": 0
     },
     {
-     "ctrl": "10",
+     "ctrl": "106",
      "legSec": 118,
      "cumSec": 1346,
      "legRank": 14,
@@ -684,12 +710,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 50,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 91,
+     "upM": 30,
+     "downM": 0
     },
     {
-     "ctrl": "11",
+     "ctrl": "108",
      "legSec": 34,
      "cumSec": 1380,
      "legRank": 48,
@@ -698,12 +724,12 @@
      "lossSec": 5,
      "mistake": false,
      "rankAt": 50,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 44,
+     "upM": 0,
+     "downM": 0
     },
     {
-     "ctrl": "12",
+     "ctrl": "114",
      "legSec": 196,
      "cumSec": 1576,
      "legRank": 42,
@@ -712,12 +738,12 @@
      "lossSec": 31,
      "mistake": false,
      "rankAt": 49,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 280,
+     "upM": 15,
+     "downM": 35
     },
     {
-     "ctrl": "13",
+     "ctrl": "119",
      "legSec": 119,
      "cumSec": 1695,
      "legRank": 42,
@@ -726,12 +752,12 @@
      "lossSec": 25,
      "mistake": false,
      "rankAt": 47,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 185,
+     "upM": 5,
+     "downM": 20
     },
     {
-     "ctrl": "14",
+     "ctrl": "75",
      "legSec": 59,
      "cumSec": 1754,
      "legRank": 24,
@@ -740,12 +766,12 @@
      "lossSec": 1,
      "mistake": false,
      "rankAt": 46,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 142,
+     "upM": 0,
+     "downM": 5
     },
     {
-     "ctrl": "15",
+     "ctrl": "200",
      "legSec": 35,
      "cumSec": 1789,
      "legRank": 35,
@@ -754,12 +780,12 @@
      "lossSec": 2,
      "mistake": false,
      "rankAt": 45,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 109,
+     "upM": 0,
+     "downM": 20
     },
     {
-     "ctrl": "Maali",
+     "ctrl": "F1",
      "legSec": 21,
      "cumSec": 1810,
      "legRank": 26,
@@ -768,9 +794,9 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 45,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 0,
+     "downM": 15
     }
    ],
    "rankAtByControl": [
@@ -791,7 +817,20 @@
     45,
     45
    ],
-   "hillProfile": null
+   "hillProfile": {
+    "up": {
+     "pct": 55.1,
+     "n": 3
+    },
+    "down": {
+     "pct": 61.0,
+     "n": 5
+    },
+    "flat": {
+     "pct": 76.9,
+     "n": 3
+    }
+   }
   },
   {
    "memberId": "alma",
@@ -1047,7 +1086,7 @@
    },
    "legs": [
     {
-     "ctrl": "1",
+     "ctrl": "41",
      "legSec": 84,
      "cumSec": 84,
      "legRank": 13,
@@ -1056,12 +1095,12 @@
      "lossSec": 14,
      "mistake": false,
      "rankAt": 13,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 197,
+     "upM": 5,
+     "downM": 5
     },
     {
-     "ctrl": "2",
+     "ctrl": "43",
      "legSec": 26,
      "cumSec": 110,
      "legRank": 1,
@@ -1070,12 +1109,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 5,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 78,
+     "upM": 0,
+     "downM": 5
     },
     {
-     "ctrl": "3",
+     "ctrl": "50",
      "legSec": 39,
      "cumSec": 149,
      "legRank": 2,
@@ -1084,12 +1123,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 3,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 87,
+     "upM": 20,
+     "downM": 0
     },
     {
-     "ctrl": "4",
+     "ctrl": "51",
      "legSec": 16,
      "cumSec": 165,
      "legRank": 7,
@@ -1098,12 +1137,12 @@
      "lossSec": 1,
      "mistake": false,
      "rankAt": 3,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 35,
+     "upM": 0,
+     "downM": 0
     },
     {
-     "ctrl": "5",
+     "ctrl": "56",
      "legSec": 55,
      "cumSec": 220,
      "legRank": 1,
@@ -1112,12 +1151,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 3,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 123,
+     "upM": 5,
+     "downM": 0
     },
     {
-     "ctrl": "6",
+     "ctrl": "61",
      "legSec": 217,
      "cumSec": 437,
      "legRank": 12,
@@ -1126,12 +1165,12 @@
      "lossSec": 48,
      "mistake": true,
      "rankAt": 4,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 253,
+     "upM": 40,
+     "downM": 25
     },
     {
-     "ctrl": "7",
+     "ctrl": "69",
      "legSec": 64,
      "cumSec": 501,
      "legRank": 1,
@@ -1140,12 +1179,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 175,
+     "upM": 5,
+     "downM": 10
     },
     {
-     "ctrl": "8",
+     "ctrl": "74",
      "legSec": 62,
      "cumSec": 563,
      "legRank": 2,
@@ -1154,12 +1193,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 102,
+     "upM": 20,
+     "downM": 0
     },
     {
-     "ctrl": "9",
+     "ctrl": "207",
      "legSec": 30,
      "cumSec": 593,
      "legRank": 3,
@@ -1168,12 +1207,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 105,
+     "upM": 0,
+     "downM": 5
     },
     {
-     "ctrl": "10",
+     "ctrl": "88",
      "legSec": 47,
      "cumSec": 640,
      "legRank": 1,
@@ -1182,12 +1221,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 156,
+     "upM": 0,
+     "downM": 20
     },
     {
-     "ctrl": "11",
+     "ctrl": "92",
      "legSec": 47,
      "cumSec": 687,
      "legRank": 1,
@@ -1196,12 +1235,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 115,
+     "upM": 5,
+     "downM": 0
     },
     {
-     "ctrl": "12",
+     "ctrl": "101",
      "legSec": 112,
      "cumSec": 799,
      "legRank": 9,
@@ -1210,12 +1249,12 @@
      "lossSec": 14,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 202,
+     "upM": 35,
+     "downM": 0
     },
     {
-     "ctrl": "13",
+     "ctrl": "103",
      "legSec": 46,
      "cumSec": 845,
      "legRank": 4,
@@ -1224,12 +1263,12 @@
      "lossSec": 1,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 115,
+     "upM": 5,
+     "downM": 10
     },
     {
-     "ctrl": "14",
+     "ctrl": "104",
      "legSec": 43,
      "cumSec": 888,
      "legRank": 3,
@@ -1238,12 +1277,12 @@
      "lossSec": 8,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 40,
+     "upM": 20,
+     "downM": 0
     },
     {
-     "ctrl": "15",
+     "ctrl": "110",
      "legSec": 89,
      "cumSec": 977,
      "legRank": 27,
@@ -1252,12 +1291,12 @@
      "lossSec": 21,
      "mistake": true,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 135,
+     "upM": 5,
+     "downM": 10
     },
     {
-     "ctrl": "16",
+     "ctrl": "121",
      "legSec": 137,
      "cumSec": 1114,
      "legRank": 4,
@@ -1266,12 +1305,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 389,
+     "upM": 20,
+     "downM": 25
     },
     {
-     "ctrl": "17",
+     "ctrl": "209",
      "legSec": 17,
      "cumSec": 1131,
      "legRank": 3,
@@ -1280,12 +1319,12 @@
      "lossSec": 1,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 40,
+     "upM": 0,
+     "downM": 10
     },
     {
-     "ctrl": "18",
+     "ctrl": "73",
      "legSec": 42,
      "cumSec": 1173,
      "legRank": 1,
@@ -1294,12 +1333,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 157,
+     "upM": 0,
+     "downM": 25
     },
     {
-     "ctrl": "19",
+     "ctrl": "200",
      "legSec": 27,
      "cumSec": 1200,
      "legRank": 3,
@@ -1308,12 +1347,12 @@
      "lossSec": 0,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 113,
+     "upM": 0,
+     "downM": 10
     },
     {
-     "ctrl": "Maali",
+     "ctrl": "F1",
      "legSec": 16,
      "cumSec": 1216,
      "legRank": 17,
@@ -1322,9 +1361,9 @@
      "lossSec": 3,
      "mistake": false,
      "rankAt": 1,
-     "distM": null,
-     "upM": null,
-     "downM": null
+     "distM": 104,
+     "upM": 0,
+     "downM": 15
     }
    ],
    "rankAtByControl": [
@@ -1349,7 +1388,20 @@
     1,
     1
    ],
-   "hillProfile": null
+   "hillProfile": {
+    "up": {
+     "pct": 92.5,
+     "n": 2
+    },
+    "down": {
+     "pct": 92.5,
+     "n": 4
+    },
+    "flat": {
+     "pct": 89.4,
+     "n": 9
+    }
+   }
   },
   {
    "memberId": "venla",
@@ -1592,7 +1644,7 @@
    "titleFi": "Kultakontrolli",
    "emoji": "🥇",
    "memberId": "vilhelm",
-   "valueFi": "1: 1. koko sarjassa (100 %)",
+   "valueFi": "39: 1. koko sarjassa (100 %)",
    "evidence": {
     "memberId": "vilhelm",
     "legIdx": 0
@@ -1651,6 +1703,28 @@
    "evidence": {
     "memberId": "sirra",
     "legIdx": 2
+   }
+  },
+  {
+   "id": "makikuningas",
+   "titleFi": "Mäkikuningas",
+   "emoji": "⛰️",
+   "memberId": "sirra",
+   "valueFi": "106: 25 m nousua, 110 % vauhti",
+   "evidence": {
+    "memberId": "sirra",
+    "legIdx": 9
+   }
+  },
+  {
+   "id": "alamakikuningas",
+   "titleFi": "Alamäkikuningas/-kuningatar",
+   "emoji": "⛷️",
+   "memberId": "eevert",
+   "valueFi": "alamäissä kentän top 8 % (4 osuutta)",
+   "evidence": {
+    "memberId": "eevert",
+    "legIdx": 9
    }
   }
  ],
@@ -1871,29 +1945,29 @@
   ]
  },
  "categories": {
-  "H60": {
-   "finishers": 79,
-   "winnerTimeSec": 1259,
-   "courseLengthM": null,
-   "climbM": null
-  },
   "HE": {
    "finishers": 61,
    "winnerTimeSec": 1216,
-   "courseLengthM": null,
-   "climbM": null
+   "courseLengthM": 2750,
+   "climbM": 160
   },
-  "D45": {
-   "finishers": 56,
-   "winnerTimeSec": 1187,
-   "courseLengthM": null,
-   "climbM": null
+  "H60": {
+   "finishers": 79,
+   "winnerTimeSec": 1259,
+   "courseLengthM": 2250,
+   "climbM": 150
   },
   "HAM": {
    "finishers": 62,
    "winnerTimeSec": 1140,
-   "courseLengthM": null,
-   "climbM": null
+   "courseLengthM": 2260,
+   "climbM": 150
+  },
+  "D45": {
+   "finishers": 56,
+   "winnerTimeSec": 1187,
+   "courseLengthM": 2240,
+   "climbM": 145
   },
   "CM": {
    "finishers": 115,
@@ -1902,7 +1976,27 @@
    "climbM": null
   }
  },
- "crops": [],
+ "crops": [
+  {
+   "id": "hero",
+   "file": "crops/s5_hero_vilhelm_L0.webp",
+   "memberId": "vilhelm",
+   "legLabel": "S1→39",
+   "kind": "hero",
+   "ctrlFrom": "S1",
+   "ctrlTo": "39",
+   "pxFrom": [
+    961.6,
+    505.3
+   ],
+   "pxTo": [
+    351.2,
+    807.7
+   ],
+   "widthPx": 1313,
+   "heightPx": 1313
+  }
+ ],
  "metsaradio": {
   "paragraphsFi": [
    "Hyvää iltaa metsästä, täällä Metsäradio. Viides etappi oli sprintti, ja sillä oli sponsori: Victorinox. Aamulla VENLA lähetti miehensä matkaan ohjeella, joka jäänee tämän viikon historiaan: \"käyppä voittamassa meille veitsi\". Ja EEVERT TOIVONEN, mies jonka eilinen päättyi puuttuvaan leimaan, meni ja voitti koko eliittisarjan. Aika 20:16, ero kakkoseksi tulleeseen Felix Huntiin 36 sekuntia, lähtijöitä 69. Radalla oli 2,7 kilometriä, 160 metriä nousua ja 19 rastia, eikä yksikään niistä jäänyt tällä kertaa väliin. Eilinen pitää hänet silti yleiskilpailun ulkopuolella, joten tämä voitto ei tuo sarjataulukkoon mitään, se tuo jotain parempaa: puhdasta kunniaa, Tasatahti-palkinnon vauhdista jonka hajonta oli 0,14, Vihreä sormi -palkinnon viidestätoista kärkikymmenysosuudesta yhdeksästätoista, ja sen veitsen. Veitsi lähtee kotiin.",
