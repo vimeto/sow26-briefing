@@ -54,6 +54,13 @@
    "descFi": "nousi 8 sijaa kesken etapin"
   },
   {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 5,
+   "descFi": "nousi 22 sijaa kesken etapin"
+  },
+  {
    "id": "rautanaula",
    "titleFi": "Rautanaula",
    "emoji": "🔩",
@@ -98,6 +105,13 @@
    "descFi": "nousi 30 sijaa kesken etapin"
   },
   {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 5,
+   "descFi": "nousi 20 sijaa kesken etapin"
+  },
+  {
    "id": "rautanaula",
    "titleFi": "Rautanaula",
    "emoji": "🔩",
@@ -119,6 +133,13 @@
    "emoji": "✨",
    "stage": 2,
    "descFi": "nolla virhettä etapilla 2"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 5,
+   "descFi": "nousi 22 sijaa kesken etapin"
   },
   {
    "id": "rautanaula",
@@ -163,13 +184,6 @@
    "emoji": "📈",
    "stage": 4,
    "descFi": "nousi 24 sijaa kesken etapin"
-  },
-  {
-   "id": "rautanaula",
-   "titleFi": "Rautanaula",
-   "emoji": "🔩",
-   "stage": 3,
-   "descFi": "kaikki etapit maaliin"
   }
  ],
  "eevert": [
@@ -179,6 +193,20 @@
    "emoji": "📈",
    "stage": 1,
    "descFi": "nousi 9 sijaa kesken etapin"
+  },
+  {
+   "id": "perheykkonen",
+   "titleFi": "Perheykkönen",
+   "emoji": "👑",
+   "stage": 5,
+   "descFi": "perheen paras sijoitus etapilla 5"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 5,
+   "descFi": "nousi 12 sijaa kesken etapin"
   },
   {
    "id": "kolmenputki",
@@ -258,6 +286,13 @@
    "emoji": "📈",
    "stage": 4,
    "descFi": "nousi 9 sijaa kesken etapin"
+  },
+  {
+   "id": "comeback",
+   "titleFi": "Takaa-ajaja",
+   "emoji": "📈",
+   "stage": 5,
+   "descFi": "nousi 17 sijaa kesken etapin"
   },
   {
    "id": "rautanaula",

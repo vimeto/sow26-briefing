@@ -16,7 +16,7 @@ import lib_trackmaxx as T
 import lib_compute as C
 import lib_livelox as LL
 
-STAGES = [1, 2, 3, 4]
+STAGES = [1, 2, 3, 4, 5]
 FAMILY_CATS = ["HAM", "HS", "HL", "D45", "H60", "CM", "HE"]
 
 AWARD_META = {
@@ -637,7 +637,7 @@ def main(stages):
         last = max((s for s in STAGES if stage_ctx[s].get(mid)), default=None)
         # Current standing as a percentile (coherent across pool sizes): from
         # the overall ranking if rankable, else the latest stage percentile.
-        ov = build_overall(parsed_by_stage, 3, m, member_cat_by_stage[mid])
+        ov = build_overall(parsed_by_stage, STAGES[-1], m, member_cat_by_stage[mid])
         if ov.get("rankable"):
             member_current_pct[mid] = C.percentile_from_rank(ov["rankAfter"], ov["of"])
         elif last:
@@ -645,7 +645,7 @@ def main(stages):
         else:
             member_current_pct[mid] = None
         member_catsize[mid] = stage_ctx[last][mid]["n_cat"] if last else 50
-    forecast = {"asOfStage": 3,
+    forecast = {"asOfStage": STAGES[-1],
                 "members": build_forecast(member_pcts, member_current_pct, member_catsize)}
     with open(os.path.join(config.DATA, "forecast.json"), "w") as f:
         json.dump(forecast, f, ensure_ascii=False, indent=1)
