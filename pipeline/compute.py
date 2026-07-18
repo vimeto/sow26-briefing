@@ -16,7 +16,7 @@ import lib_trackmaxx as T
 import lib_compute as C
 import lib_livelox as LL
 
-STAGES = [1, 2, 3, 4, 5]
+STAGES = [1, 2, 3, 4, 5, 6]
 FAMILY_CATS = ["HAM", "HS", "HL", "D45", "H60", "CM", "HE"]
 
 AWARD_META = {

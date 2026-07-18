@@ -1,93 +1,93 @@
 {
- "asOfStage": 5,
+ "asOfStage": 6,
  "members": {
   "vilhelm": {
-   "p05": 23,
-   "p25": 26,
-   "p50": 27,
-   "p75": 29,
-   "p95": 32,
+   "p05": 28,
+   "p25": 28,
+   "p50": 28,
+   "p75": 28,
+   "p95": 28,
    "pTop10": 0.0,
-   "pBetterThanCurrent": 0.921,
-   "trend": "nouseva",
-   "catSize": 62
+   "pBetterThanCurrent": 1.0,
+   "trend": "tasainen",
+   "catSize": 61
   },
   "viivi": {
-   "p05": 4,
-   "p25": 5,
+   "p05": 6,
+   "p25": 6,
    "p50": 6,
-   "p75": 7,
-   "p95": 9,
-   "pTop10": 0.187,
-   "pBetterThanCurrent": 0.999,
+   "p75": 6,
+   "p95": 6,
+   "pTop10": 0.0,
+   "pBetterThanCurrent": 1.0,
    "trend": "laskeva",
    "catSize": 34
   },
   "sirra": {
-   "p05": 9,
+   "p05": 10,
    "p25": 10,
    "p50": 10,
    "p75": 10,
-   "p95": 11,
+   "p95": 10,
    "pTop10": 0.0,
-   "pBetterThanCurrent": 0.288,
-   "trend": "laskeva",
+   "pBetterThanCurrent": 1.0,
+   "trend": "tasainen",
    "catSize": 56
   },
   "mikko": {
    "p05": 28,
-   "p25": 30,
-   "p50": 31,
-   "p75": 32,
-   "p95": 33,
+   "p25": 28,
+   "p50": 28,
+   "p75": 28,
+   "p95": 28,
    "pTop10": 0.0,
    "pBetterThanCurrent": 0.0,
    "trend": "laskeva",
-   "catSize": 79
+   "catSize": 73
   },
   "alma": {
    "p05": 9,
-   "p25": 10,
-   "p50": 11,
-   "p75": 11,
-   "p95": 12,
-   "pTop10": 0.966,
-   "pBetterThanCurrent": 0.779,
-   "trend": "laskeva",
-   "catSize": 115
-  },
-  "markus": {
-   "p05": 18,
-   "p25": 21,
-   "p50": 23,
-   "p75": 25,
-   "p95": 27,
-   "pTop10": 0.0,
+   "p25": 9,
+   "p50": 9,
+   "p75": 9,
+   "p95": 9,
+   "pTop10": 1.0,
    "pBetterThanCurrent": 0.0,
    "trend": "tasainen",
-   "catSize": 59
+   "catSize": 104
   },
-  "eevert": {
-   "p05": 5,
-   "p25": 6,
-   "p50": 7,
-   "p75": 7,
-   "p95": 8,
-   "pTop10": 0.895,
+  "markus": {
+   "p05": 21,
+   "p25": 21,
+   "p50": 21,
+   "p75": 21,
+   "p95": 21,
+   "pTop10": 0.0,
    "pBetterThanCurrent": 0.0,
    "trend": "nouseva",
-   "catSize": 61
+   "catSize": 63
+  },
+  "eevert": {
+   "p05": 7,
+   "p25": 7,
+   "p50": 7,
+   "p75": 7,
+   "p95": 7,
+   "pTop10": 1.0,
+   "pBetterThanCurrent": 1.0,
+   "trend": "nouseva",
+   "catSize": 63
   },
   "venla": {
    "p05": 3,
    "p25": 3,
    "p50": 3,
-   "p75": 4,
-   "p95": 5,
+   "p75": 3,
+   "p95": 3,
    "pTop10": 1.0,
    "pBetterThanCurrent": 0.0,
    "trend": "tasainen",
-   "catSize": 115
+   "catSize": 104
   }
  }
 }

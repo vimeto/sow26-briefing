@@ -1,61 +1,71 @@
 {
-  "_note": "Livelox event/class ids for SOW 2026, from the livelox-climb agent. ClassInfo contract: POST https://www.livelox.com/Data/ClassInfo body {\"eventId\":null,\"classIds\":[<id>],\"courseIds\":[],\"relayLegs\":[],\"relayLegGroupIds\":[]} with header X-Requested-With: XMLHttpRequest; response.general.classBlobUrl = class-storage blob, response.general.classes[] enumerates all classIds for that event. eventId-only queries work for E3+ but 400 for E1/E2 (seed with a classId there). Run from page context to avoid CORS.",
-  "eventIds": {
-    "1": 195419,
-    "2": 195420,
-    "3": 195421,
-    "4": 195422,
-    "5": 195423
+ "_note": "Livelox event/class ids for SOW 2026, from the livelox-climb agent. ClassInfo contract: POST https://www.livelox.com/Data/ClassInfo body {\"eventId\":null,\"classIds\":[<id>],\"courseIds\":[],\"relayLegs\":[],\"relayLegGroupIds\":[]} with header X-Requested-With: XMLHttpRequest; response.general.classBlobUrl = class-storage blob, response.general.classes[] enumerates all classIds for that event. eventId-only queries work for E3+ but 400 for E1/E2 (seed with a classId there). Run from page context to avoid CORS.",
+ "eventIds": {
+  "1": 195419,
+  "2": 195420,
+  "3": 195421,
+  "4": 195422,
+  "5": 195423,
+  "6": 195424
+ },
+ "classIds": {
+  "1": {
+   "HAM": 1225297,
+   "D45": 1225312,
+   "H60": 1225310,
+   "CM": 1225332,
+   "HE": 1225290,
+   "HS": 1225335,
+   "HL": 1225336
   },
-  "classIds": {
-    "1": {
-      "HAM": 1225297,
-      "D45": 1225312,
-      "H60": 1225310,
-      "CM": 1225332,
-      "HE": 1225290,
-      "HS": 1225335,
-      "HL": 1225336
-    },
-    "2": {
-      "HAM": 1225384,
-      "HS": 1225410,
-      "D45": 1225389,
-      "H60": 1225375,
-      "CM": 1225407,
-      "HE": 1225359
-    },
-    "3": {
-      "HAM": 1225420,
-      "HL": 1225470,
-      "D45": 1225452,
-      "H60": 1225428,
-      "CM": 1225466,
-      "HE": 1225418
-    },
-    "4": {
-      "HAM": 1225479,
-      "HL": 1225529,
-      "HS": 1225528,
-      "D45": 1225511,
-      "H60": 1225487,
-      "CM": 1225525,
-      "HE": 1225477
-    },
-    "5": {
-      "HAM": 1225539,
-      "HL": 1225590,
-      "HS": 1225589,
-      "D45": 1225572,
-      "H60": 1225550,
-      "CM": 1225586,
-      "HE": 1225536
-    }
+  "2": {
+   "HAM": 1225384,
+   "HS": 1225410,
+   "D45": 1225389,
+   "H60": 1225375,
+   "CM": 1225407,
+   "HE": 1225359
   },
-  "unavailable": {
-    "1": [
-      "CM"
-    ]
+  "3": {
+   "HAM": 1225420,
+   "HL": 1225470,
+   "D45": 1225452,
+   "H60": 1225428,
+   "CM": 1225466,
+   "HE": 1225418
   },
-  "_unavailable_note": "s1 CM (classId 1225332) has a map but Livelox returns no classBlobUrl, so no course geometry exists to extract — real data gap, not publish-lag."
+  "4": {
+   "HAM": 1225479,
+   "HL": 1225529,
+   "HS": 1225528,
+   "D45": 1225511,
+   "H60": 1225487,
+   "CM": 1225525,
+   "HE": 1225477
+  },
+  "5": {
+   "HAM": 1225539,
+   "HL": 1225590,
+   "HS": 1225589,
+   "D45": 1225572,
+   "H60": 1225550,
+   "CM": 1225586,
+   "HE": 1225536
+  },
+  "6": {
+   "HAM": 1225600,
+   "HL": 1225651,
+   "HS": 1225650,
+   "D45": 1225633,
+   "H60": 1225611,
+   "CM": 1225648,
+   "HE": 1225597
+  }
+ },
+ "unavailable": {
+  "1": [
+   "CM"
+  ]
+ },
+ "_unavailable_note": "s1 CM (classId 1225332) has a map but Livelox returns no classBlobUrl, so no course geometry exists to extract — real data gap, not publish-lag."
 }
